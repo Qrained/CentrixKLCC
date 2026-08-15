@@ -1,0 +1,12 @@
+node_modules/
+.astro/
+dist/
+.playwright-mcp/
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+npm-debug.log*

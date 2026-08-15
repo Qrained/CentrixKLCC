@@ -1,0 +1,24 @@
+{
+  "name": "property-showcases-astro",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "payload:build": "payload generate:types --config src/payload.config.ts"
+  },
+  "dependencies": {
+    "astro": "^5.15.6"
+  },
+  "devDependencies": {
+    "@astrojs/cloudflare": "^12.6.13",
+    "@payloadcms/db-d1-sqlite": "^3.84.1",
+    "@payloadcms/db-sqlite": "^3.84.1",
+    "@payloadcms/richtext-lexical": "^3.84.1",
+    "@payloadcms/storage-r2": "^3.84.1",
+    "payload": "^3.84.1",
+    "wrangler": "^4.90.0"
+  }
+}
