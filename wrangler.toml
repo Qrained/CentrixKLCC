@@ -7,5 +7,11 @@ compatibility_flags = [ "nodejs_compat" ]
 binding = "ASSETS"
 directory = "./dist"
 
+[[d1_databases]]
+binding = "DB"
+database_name = "centrixklcc-db"
+database_id = "54d44fcf-f1aa-48e5-9470-bf5a43f70922"
+migrations_dir = "migrations"
+
 [observability]
 enabled = true
